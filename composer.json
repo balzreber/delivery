@@ -3,10 +3,13 @@
 	"description": "Manage suppliers, batches and packages.",
 	"keywords": ["laravel", "balzreber", "delivery"],
 	"license": "MIT",
+	"version": "1.0.0-RC1",
 	"authors": [
 		{
 			"name": "Balz Reber",
-			"email": "me@balse.ch"
+			"email": "me@balse.ch",
+			"homepage": "http://www.balse.ch",
+            "role": "Developer"
 		}
 	],
 	"require": {
