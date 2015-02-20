@@ -11,8 +11,7 @@
         "classmap": [
             "src/migrations",
             "src/controllers",
-            "src/models",
-            "tests"
+            "src/models"
         ],
         "psr-0": {
             "Balzreber\\Delivery\\": "src/"
