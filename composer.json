@@ -1,0 +1,21 @@
+{
+    "name": "balzreber/delivery",
+    "description": "",
+    "authors": [
+        {
+            "name": "Balz Reber",
+            "email": "balz.reber@band.ch"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/controllers",
+            "src/models",
+            "tests"
+        ],
+        "psr-0": {
+            "Balzreber\\Delivery\\": "src/"
+        }
+    }
+}
