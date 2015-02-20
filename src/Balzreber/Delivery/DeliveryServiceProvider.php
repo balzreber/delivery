@@ -18,7 +18,6 @@ class DeliveryServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('balzreber/delivery');
 		include __DIR__.'/../../routes.php';
 		$loader = \Illuminate\Foundation\AliasLoader::getInstance();
       	$loader-> alias('Delivery', 'Balzreber\Delivery\Facades\Delivery');
