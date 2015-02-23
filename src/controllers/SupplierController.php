@@ -1,9 +1,10 @@
 <?php namespace Balzreber\Delivery\Controllers;
 
-use \BaseContrtoller, \View, \Input, \Validator, \Redirect;
+use App\Http\Controllers\Controller;
+use View, Input, Validator, Redirect;
 use Balzreber\Delivery\Models\Supplier as Supplier;
 
-class SupplierController extends \BaseController {
+class SupplierController extends Controller {
        
 	public $restful = true;
 	

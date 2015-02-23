@@ -1,10 +1,11 @@
 <?php namespace Balzreber\Delivery\Controllers;
 
-use BaseController, View, Input, Validator, Redirect;
+use App\Http\Controllers\Controller;
+use View, Input, Validator, Redirect;
 use Balzreber\Delivery\Models\Batch as Batch;
 use Balzreber\Delivery\Models\Supplier as Supplier;
 
-class BatchController extends BaseController {
+class BatchController extends Controller {
        
 	public $restful = true;
 	
