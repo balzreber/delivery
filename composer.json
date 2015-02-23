@@ -1,0 +1,29 @@
+{
+	"name": "balzreber/delivery",
+	"description": "Manage suppliers, batches and packages.",
+	"keywords": ["laravel", "balzreber", "delivery"],
+	"license": "MIT",
+	"version": "1.0.0-RC1",
+	"authors": [
+		{
+			"name": "Balz Reber",
+			"email": "me@balse.ch",
+			"homepage": "http://www.balse.ch",
+            "role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.0"
+	},
+	"autoload": {
+		"classmap": [
+            "src/migrations",
+            "src/controllers",
+            "src/models"
+        ],
+		"psr-0": {
+			"Balzreber\\Delivery\\": "src/"
+		}
+	},
+	"minimum-stability": "dev"
+}
