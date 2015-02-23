@@ -3,6 +3,7 @@ Delivery
 
 Delivery Module
 
+<<<<<<< HEAD
 Requires Laravel 5
 
 Installation:
@@ -29,3 +30,14 @@ Add "Balzreber\Delivery\DeliveryServiceProvider" to the provider array in /confi
 
 6. Extends layout
 All views extend the 'layout' template as theire container.
+=======
+
+Requires Laravel 5
+
+Installation:
+
+Add "Balzreber\Delivery\DeliveryServiceProvider" to the /config/app.php providers array.
+
+Migrations:
+php artisan migrate --path=path/to/migrations
+>>>>>>> dbbe69b23e36ad9af0b17aa912353cab19a3f995

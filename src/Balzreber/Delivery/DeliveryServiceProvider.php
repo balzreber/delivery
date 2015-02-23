@@ -21,7 +21,10 @@ class DeliveryServiceProvider extends ServiceProvider {
 		include __DIR__.'/../../routes.php';
 		$loader = \Illuminate\Foundation\AliasLoader::getInstance();
       	$loader-> alias('Delivery', 'Balzreber\Delivery\Facades\Delivery');
+<<<<<<< HEAD
 		$this->loadViewsFrom(__DIR__.'/../../views', 'delivery');
+=======
+>>>>>>> dbbe69b23e36ad9af0b17aa912353cab19a3f995
 	}
 
 	/**
