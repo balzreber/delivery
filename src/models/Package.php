@@ -1,11 +1,8 @@
 <?php namespace Balzreber\Delivery\Models;
 
 use Eloquent;
-<<<<<<< HEAD
+
 use Illuminate\Database\Eloquent\SoftDeletes;
-=======
-use Illuminate\Database\Eloquent\SoftDeletingTrait;
->>>>>>> dbbe69b23e36ad9af0b17aa912353cab19a3f995
 
 class Package extends Eloquent {
 	
